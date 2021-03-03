@@ -127,6 +127,27 @@ button{
 	cursor: pointer;
 }
 
+.button-buy-shopping{
+	opacity:0.75;
+	text-align: center;
+	border-radius: 9999px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	font-weight: 600;
+	--tw-text-opacity: 1;
+	color: rgba(120, 53, 15, var(--tw-text-opacity));
+	--tw-bg-opacity: 1;
+	background-color: rgba(252, 211, 77, var(--tw-bg-opacity));
+}
+
+.button-buy-shopping:hover{
+	opacity: 1;
+	--tw-text-opacity: 1;
+	color: rgba(17, 24, 39, var(--tw-text-opacity));
+}
+
 p,.text{
 	font-size: 16px;
 	line-height: 30px;
